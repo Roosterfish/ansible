@@ -95,7 +95,7 @@ BECOME_METHODS = _DeprecatedSequenceConstant(
 )
 
 # CONSTANTS ### yes, actual ones
-BLACKLIST_EXTS = ('.pyc', '.pyo', '.swp', '.bak', '~', '.rpm', '.md', '.txt', '.rst')
+BLACKLIST_EXTS = ('.pyc', '.pyo', '.swp', '.bak', '~', '.rpm', '.md', '.adoc', '.txt', '.rst')
 BOOL_TRUE = BOOLEANS_TRUE
 DEFAULT_BECOME_PASS = None
 DEFAULT_PASSWORD_CHARS = to_text(ascii_letters + digits + ".,:-_", errors='strict')  # characters included in auto-generated passwords
